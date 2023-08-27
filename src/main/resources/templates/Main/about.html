@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/styles/main/index.css"/>
+    <link rel="stylesheet" href="/styles/main/about.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<body class="app">
+<header th:insert="~{sections/header :: header}">
+
+</header>
+
+<div class="main-content" th:insert="~{sections/main/about :: about}">
+
+</div>
+
+<footer th:insert="~{sections/footer :: footer}">
+
+</footer>
+</body>
+</html>

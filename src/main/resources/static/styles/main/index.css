@@ -1,0 +1,36 @@
+@import "../sections/header.css";
+@import "../sections/footer.css";
+@import "../sections/main/content.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+img {
+    background-color: transparent !important;
+}
+
+body.app {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
